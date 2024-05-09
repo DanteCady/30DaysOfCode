@@ -11,7 +11,7 @@ solve = (mealCost, tipPercentage, taxPercentage) => {
     let tipAmount = mealCost * (tipPercentage / 100) // Calculate tip amount
     let taxAmount = mealCost * (taxPercentage / 100) // Calculate tax amount
     let totalBill = mealCost + tipAmount + taxAmount // Calculate total cost of meal
-     console.log(totalBill);
+     console.log(Math.floor(totalBill));
     return
 }
 
