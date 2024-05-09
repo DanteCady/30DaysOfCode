@@ -8,13 +8,15 @@
 // Complete the stub code provided in your editor to print whether or not  is weird.
 
 function main() {
+    // Read the input number
     const N = parseInt(readLine().trim(), 10);
-        if (N % 2 !== 0) {
+    // Conditional statements to check if the number is weird or not
+        if (N % 2 !== 0) { // if the number is odd
         console.log("Weird");
     } else {
-        if (N >= 2 && N <= 5) {
+        if (N >= 2 && N <= 5) { // if the number is even and in the inclusive range of 2 to 5
             console.log("Not Weird");
-        } else if (N >= 6 && N <= 20) {
+        } else if (N >= 6 && N <= 20) { // if the number is even and in the inclusive range of 6 to 20
             console.log("Weird");
         } else {
             console.log("Not Weird");
